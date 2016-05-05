@@ -1,0 +1,146 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background-image: url(../images/header.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	height: 100%;
+
+	.navbar-default{
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid white;
+		text-transform: uppercase;
+		font-weight: 700;
+
+		.navbar-brand{
+			color: white;
+		}
+
+		.navbar-nav>li>a {
+		    color: white;
+		}
+	}
+}
+
+/*Estilos Tipografías*/
+
+h1{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	font-size:70px;
+}
+
+h2{
+	color: white;
+	font-size:30px;
+}
+
+.colorsecundario{
+	color: black;
+}
+
+.colorprimario{
+	color: #f05f40;
+}
+
+h3{
+	font-size: 20px;
+}
+
+h4{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+
+/**/
+
+
+.textocabecera{
+	position: relative;
+	top:15%;
+}
+
+.hrblanco{
+	background-color: white;
+}
+
+hr{
+	background-color:#f05f40;
+	width: 50px;
+	height: 3px;
+	border: none;
+}
+
+p{
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	font-size: 16px;
+}
+
+.btn{
+	background-color: #f05f40;
+	border-radius: 50px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 20px;
+	margin-top: 50px;
+}
+
+.btncolor{
+	background-color: white;
+	color: black;
+	margin-top: 15px;
+}
+
+
+#section1{
+	background-color: #f05f40;
+	height: 60%;
+
+	.container{
+		position: relative;
+		top: 22%;
+	}
+}
+
+#section2{
+	height: 60%;
+
+	.container{
+		position: relative;
+		top: 22%;
+
+		span{
+			color:#f05f40;
+			font-size: 60px;
+		}
+	}
+}
+
+#section3{
+
+	div{
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+	}
+}
+
+#section4{
+	height: 30%;
+	background-color: black;
+
+	.container{
+		position: relative;
+		top: 22%;
+	}
+}
