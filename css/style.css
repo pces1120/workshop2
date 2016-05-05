@@ -106,4 +106,43 @@ p {
     position: relative;
     top: 22%; }
 
+footer {
+  height: 70%; }
+  footer .container {
+    position: relative;
+    top: 22%; }
+    footer .container span {
+      color: black;
+      font-size: 40px; }
+
+/* Media query */
+@media screen and (max-width: 500px) {
+  header .navbar-default {
+    background-color: white;
+    border: none; }
+    header .navbar-default .navbar-brand {
+      color: #f05f40; }
+    header .navbar-default .navbar-nav > li > a {
+      color: #f05f40; }
+
+  /*Estilos Tipografías*/
+  h1 {
+    font-size: 40px; }
+
+  /**/
+  #section1 {
+    height: 70%; }
+    #section1 .container {
+      top: 20%; }
+
+  #section2 {
+    height: 120%; }
+    #section2 .container {
+      top: 10%; }
+      #section2 .container .row .col-xs-12 {
+        margin-top: 15px; }
+
+  #section4 .container {
+    top: 15%; } }
+
 /*# sourceMappingURL=style.css.map */

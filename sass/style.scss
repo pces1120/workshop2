@@ -144,3 +144,77 @@ p{
 		top: 22%;
 	}
 }
+
+footer{
+	height: 70%;
+
+	.container{
+		position: relative;
+		top: 22%;
+
+		span{
+			color:black;
+			font-size: 40px;
+		}
+	}
+}
+
+/* Media query */
+
+@media screen and (max-width: 500px){
+	header{
+	
+	.navbar-default{
+		background-color: white;
+		border: none;
+
+		.navbar-brand{
+			color: #f05f40;
+		}
+
+		.navbar-nav>li>a { 
+			color: #f05f40;
+		}
+	}
+}
+
+/*Estilos Tipografías*/
+
+h1{
+	font-size:40px;
+}
+
+/**/
+
+#section1{
+	height: 70%;
+
+	.container{
+		top: 20%;
+	}
+}
+
+#section2{
+	height: 120%;
+
+	.container{
+		top: 10%;
+
+		.row{
+
+			.col-xs-12{
+				margin-top: 15px;
+
+			}
+		}
+	}
+}
+
+#section4{
+
+	.container{
+		top: 15%;
+	}
+}
+
+}
